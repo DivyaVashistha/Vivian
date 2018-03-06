@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="avatar">WELCOME TO CNECTUS!</string>
+    <string name="profile">PROFILE</string>
+    <string name="questions">QUESTIONS</string>
+    <string name="matches">MATCHES</string>
+    <string name="connections">CONNECTIONS</string>
+    <string name="finals">LET\'S GET STARTED!</string>
+
+
+    <string name="avatar_hint">Connect with your most identical personalities. </string>
+    <string name="profile_hint">First! Create your profile and select everything that describes you best.</string>
+    <string name="questions_hint">Next! Answer some interesting questions to determine your personality type.</string>
+    <string name="matches_hint">Finally! Connect to people who\'ve got the most similar personality as yours.</string>
+    <string name="connections_hint">Stay in touch with the people you\'ve connected to in the past.</string>
+    <string name="final_hint">Taking you to our family...</string>
+    <string name="about_nectus">Cnectus is an idea to connect like minded people. It aims to bring together people who share similar personalities through its intensive match algorithm. Our vision is to have a society where it is easier for people to connect with people they can share a healthy bond with and thus promoting better friendships and relationships.</string>
+
+</resources>

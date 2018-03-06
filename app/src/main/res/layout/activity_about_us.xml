@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_aboutus"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.gaurivashistha.vivian.AboutUs"
+    android:background="@drawable/menu_background">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@color/backabt"
+        android:id="@+id/imageView7"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/abt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="36dp"
+        android:text="ABOUT US"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="3dp"
+        app:srcCompat="@color/colorAccent2"
+        android:layout_below="@+id/abt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:id="@+id/imageView6" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/imageView6"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/abtnec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="About Vivian!"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/nec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/about_nectus"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/cont"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Contact us at : "
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/mail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="cnectusteam@gmail.com"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/ver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:text="Version 2.1.3"
+                android:textColor="@android:color/white"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="visible">
+
+                <TextView
+                    android:id="@+id/nam1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Made with "
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    app:srcCompat="@drawable/help" />
+
+                <TextView
+                    android:id="@+id/nam2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="10dp"
+                    android:text="In INDIA"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

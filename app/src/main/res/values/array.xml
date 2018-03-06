@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="icons">
+        <item>@drawable/ic_menu_slideshow</item>
+        <item>@drawable/ic_menu_camera</item>
+        <item>@drawable/ic_menu_gallery</item>
+        <item>@drawable/ic_menu_send</item>
+        <item>@drawable/ic_menu_share</item>
+        <item>@drawable/ic_menu_manage</item>
+
+    </array>
+    <array name="landing_bg">
+        <item>@color/orange</item>
+        <item>@color/light_purple</item>
+        <item>@color/light_teal</item>
+        <item>@color/red</item>
+        <item>@color/light_green</item>
+        <item>@color/light_cyan</item>
+
+    </array>
+
+    <string-array name="titles" >
+
+        <item>@string/avatar</item>
+        <item>@string/profile</item>
+        <item>@string/questions</item>
+        <item>@string/matches</item>
+        <item>@string/connections</item>
+        <item>@string/finals</item>
+
+    </string-array>
+
+    <string-array name="hints" >
+
+        <item>@string/avatar_hint</item>
+        <item>@string/profile_hint</item>
+        <item>@string/questions_hint</item>
+        <item>@string/matches_hint</item>
+        <item>@string/connections_hint</item>
+        <item>@string/final_hint</item>
+
+    </string-array>
+
+</resources>

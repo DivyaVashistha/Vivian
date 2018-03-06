@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gaurivashistha.vivian.Feedback"
+    android:background="@drawable/menu_background">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FEEDBACK"
+        android:textSize="30sp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textHead"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true" />
+    <View
+        android:layout_width="320dp"
+        android:layout_height="3dp"
+        android:background="@color/colorAccent2"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/view"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/textHead" />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Your Message.."
+        android:textSize="20sp"
+        android:id="@+id/msg"
+        android:textColor="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:textStyle="normal|bold"
+        android:layout_below="@+id/view" />
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/msg"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:hint="Submit a Bug or Request a Feature or Send your Ideas..."
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:id="@+id/sbtn"
+        android:textColor="@color/black"
+        android:background="@color/bacc"
+        android:layout_centerVertical="true"
+        android:layout_alignEnd="@+id/edit"
+        android:layout_alignRight="@+id/edit"
+        android:layout_below="@+id/edit"
+        android:layout_marginTop="30dp" />
+</RelativeLayout>
